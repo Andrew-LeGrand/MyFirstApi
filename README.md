@@ -72,32 +72,32 @@
 
 ## Environment Variables
 
-    invitation:
-         url: 'https://urlhere'
+invitation:
+    url: 'https://urlhere'
 
-    twilio:
-        default_number: '555-555-5555'
-        account_sid: 'sid_here'
-        auth_token: 'auth_token'
+twilio:
+    default_number: '555-555-5555'
+    account_sid: 'sid_here'
+    auth_token: 'auth_token'
 
-    sendgrid:
-        default_email: 'fillthisout@email.com'
-        domain: 'domain.com'
-        address: 'smtp.sendgrid.net'
-        username: 'apikey' #apikey actually is the username to authenticate with api secret token below
-        password: 'api_token'
+sendgrid:
+    default_email: 'fillthisout@email.com'
+    domain: 'domain.com'
+    address: 'smtp.sendgrid.net'
+    username: 'apikey' #apikey actually is the username to authenticate with api secret token below
+    password: 'api_token'
 
-    sidekiq:
-        auth_username: 'username'
-        auth_password: 'password'
+sidekiq:
+    auth_username: 'username'
+    auth_password: 'password'
 
-    workers:
-        max_threads: #
-        min_threads: #
+workers:
+    max_threads: #
+    min_threads: #
 
-    swagger:
-        username: 'username'
-        password: 'password'
+swagger:
+    username: 'username'
+    password: 'password'
 
 ## Access Rails Environment Variables
 
